@@ -1,27 +1,27 @@
 ---
 de:
-  $ref: ./nls/messages_de.yml
+  $ref: ./nls/messages.yml
 en-AA:
-  $ref: ./nls/messages_en_AA.yml
+  $ref: ./nls/messages.yml
 en-RR:
-  $ref: ./nls/messages_en_RR.yml
+  $ref: ./nls/messages.yml
 en-ZZ:
-  $ref: ./nls/messages_en_ZZ.yml
+  $ref: ./nls/messages.yml
 es:
-  $ref: ./nls/messages_es.yml
+  $ref: ./nls/messages.yml
 fr:
-  $ref: ./nls/messages_fr.yml
+  $ref: ./nls/messages.yml
 it:
-  $ref: ./nls/messages_it.yml
+  $ref: ./nls/messages.yml
 ja:
-  $ref: ./nls/messages_ja.yml
+  $ref: ./nls/messages.yml
 ko:
-  $ref: ./nls/messages_ko.yml
+  $ref: ./nls/messages.yml
 pt-BR:
-  $ref: ./nls/messages_pt_BR.yml
+  $ref: ./nls/messages.yml
 zh:
-  $ref: ./nls/messages_zh.yml
+  $ref: ./nls/messages.yml
 zh-HK:
-  $ref: ./nls/messages_zh_HK.yml
+  $ref: ./nls/messages.yml
 zh-TW:
-  $ref: ./nls/messages_zh_TW.yml
+  $ref: ./nls/messages.yml
