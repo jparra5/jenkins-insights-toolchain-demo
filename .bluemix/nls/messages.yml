@@ -1,6 +1,6 @@
 ---
-name: "Simple Jenkins Toolchain"
-description: ""
+name: "Simple Jenkins toolchain"
+description: "This is a sample Jenkins toolchain."
 $deploy.title: "Microservices deployment stage"
 $deploy.description: "Feb Demo Microservices Stage Schema"
 $deploy.longDescription: "The Delivery Pipeline automates continuous deployment."
