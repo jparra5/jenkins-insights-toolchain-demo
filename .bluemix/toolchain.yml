@@ -29,6 +29,11 @@ alerting:
   service_id: pagerduty
   include: pagerduty.yml
 
+#Jenkins
+jenkins:
+  service_id: jenkins
+  include: jenkins.yml
+
 #Web IDE
 webide:
   service_id: orion
