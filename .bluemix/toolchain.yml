@@ -21,11 +21,6 @@ messaging:
   service_id: slack
   include: slack.yml
 
-#PagerDuty
-alerting:
-  service_id: pagerduty
-  include: pagerduty.yml
-
 #Jenkins
 jenkins:
   service_id: jenkins
