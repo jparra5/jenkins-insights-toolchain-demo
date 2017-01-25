@@ -29,3 +29,8 @@ jenkins:
 #Web IDE
 webide:
   service_id: orion
+
+#DevOps Insights
+dra:
+  service_id: draservicebroker
+  include: dra.yml
