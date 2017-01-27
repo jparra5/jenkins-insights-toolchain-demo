@@ -11,16 +11,16 @@ required:
 demo-dra-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{github.parameters.demo-dra-repo_name}}"
-    repo_url: "{{github.parameters.demo-dra-repo_url}}"
+    repo_name: "vue-{{name}}"
+    repo_url: https://github.com/open-toolchain/DemoDRA.git
     type: clone
     has_issues: false
 
 vue-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{github.parameters.vue-repo_name}}"
-    repo_url: "{{github.parameters.vue-repo_url}}"
+    repo_name: "demo-dra-{{name}}"
+    repo_url: https://github.com/vuejs/vue.git
     type: clone
     has_issues: true
 
@@ -37,12 +37,3 @@ jenkins:
 #Web IDE
 webide:
   service_id: orion
-
-#GitHub
-github:
-  service-category: githubpublic
-  parameters:
-    vue-repo_name: "vue-{{name}}"
-    vue-repo_url: https://github.com/vuejs/vue.git
-    demo-dra-repo_name: "orders-api-{{name}}"
-    demo-dra-repo_url: https://github.com/open-toolchain/DemoDRA.git
