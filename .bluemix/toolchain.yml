@@ -11,7 +11,7 @@ required:
 demo-dra-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "vue-{{name}}"
+    repo_name: "demo-dra-{{name}}"
     repo_url: https://github.com/open-toolchain/DemoDRA.git
     type: clone
     has_issues: false
@@ -19,7 +19,7 @@ demo-dra-repo:
 vue-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "demo-dra-{{name}}"
+    repo_name: "vue-{{name}}"
     repo_url: https://github.com/vuejs/vue.git
     type: clone
     has_issues: true
