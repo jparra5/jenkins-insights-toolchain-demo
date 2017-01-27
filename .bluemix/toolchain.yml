@@ -12,7 +12,7 @@ demo-dra-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{github.parameters.demo-dra-repo_name}}"
-    repo_url: https://github.com/open-toolchain/node-hello-world
+    repo_url: https://github.com/open-toolchain/DemoDRA.git
     type: clone
     has_issues: false
 
@@ -20,7 +20,7 @@ vue-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{github.parameters.vue-repo_name}}"
-    repo_url: https://github.com/open-toolchain/node-hello-world
+    repo_url: https://github.com/vuejs/vue.git
     type: clone
     has_issues: true
 
