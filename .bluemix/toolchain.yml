@@ -8,10 +8,18 @@ required:
  - sample-repo
 
 # Github repos
-sample-repo:
+demo-dra-repo:
   service_id: githubpublic
   parameters:
-    repo_name: "{{name}}"
+    repo_name: "{{github.parameters.demo-dra-repo_name}}"
+    repo_url: https://github.com/open-toolchain/node-hello-world
+    type: clone
+    has_issues: false
+
+vue-repo:
+  service_id: githubpublic
+  parameters:
+    repo_name: "{{github.parameters.vue-repo_name}}"
     repo_url: https://github.com/open-toolchain/node-hello-world
     type: clone
     has_issues: true
