@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Jenkins Insights Toolchain Demo Policy",
+    "description": "Composite Policy to check both Unit Tests and Code Coverage.",
+    "rules":[
+      {
+        "name": "Unit Test Rule",
+        "description": "Unit Test Rule",
+        "format":"mocha",
+        "stage":"unittest",
+        "percentPass":80,
+        "regressionCheck":true
+      },
+      {
+        "name": "Code Coverage Rule",
+        "description": "Code Coverage Rule",
+        "format":"istanbul",
+        "stage":"code",
+        "codeCoverage":50,
+        "regressionCheck":true
+      },
+      {
+        "name": "Functional Verification Test Rule",
+        "description": "Functional Verification Test Rule",
+        "format":"mocha",
+        "stage":"fvt",
+        "percentPass":80,
+        "regressionCheck":true
+      }
+    ]
+  }
+]

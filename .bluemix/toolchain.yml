@@ -16,13 +16,13 @@ demo-dra-repo:
     type: clone
     has_issues: false
 
-vue-repo:
-  service_id: githubpublic
-  parameters:
-    repo_name: "vue-{{name}}"
-    repo_url: https://github.com/vuejs/vue.git
-    type: clone
-    has_issues: true
+#vue-repo:
+  #service_id: githubpublic
+  #parameters:
+    #repo_name: "vue-{{name}}"
+    #repo_url: https://github.com/vuejs/vue.git
+    #type: clone
+    #has_issues: true
 
 #Slack
 messaging:
@@ -33,6 +33,11 @@ messaging:
 jenkins:
   service_id: jenkins
   include: jenkins.yml
+
+#DevOps Insights
+dra:
+  service_id: draservicebroker
+  include: dra.yml
 
 #Web IDE
 webide:
