@@ -1,6 +1,6 @@
 #Simple Cloud Foundry toolchain with Jenkins
 
-This Hello World application uses Node.js and includes a DevOps toolchain that is preconfigured for continuous delivery using Jenkins, source control, issue tracking, online editing, and alert notification.
+With this cloud-native toolchain, you can build a simple Node.js weather application. The toolchain builds from a GitHub repository, runs unit tests by using Mocha, checks code coverage by using Istanbul, performs Functional Verification Tests using Mocha, requests decisions from DevOps Insights, and then deploys to IBM Bluemix.
 
 To get started, click **Create toolchain**.
 
