@@ -9,7 +9,8 @@
         "format":"mocha",
         "stage":"unittest",
         "percentPass":80,
-        "regressionCheck":true
+        "regressionCheck":true,
+        "criticalTests":[]
       },
       {
         "name": "Code Coverage Rule",
@@ -20,12 +21,13 @@
         "regressionCheck":true
       },
       {
-        "name": "Functional Verification Test Rule",
-        "description": "Functional Verification Test Rule",
+        "name": "FVT Rule",
+        "description": "FVT Rule",
         "format":"mocha",
         "stage":"fvt",
         "percentPass":80,
-        "regressionCheck":true
+        "regressionCheck":true,
+        "criticalTests":[]
       }
     ]
   }
