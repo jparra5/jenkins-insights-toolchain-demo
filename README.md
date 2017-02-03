@@ -1,4 +1,4 @@
-#Simple Cloud Foundry toolchain with Jenkins
+#Simple Cloud Foundry toolchain with DevOps Insights and Jenkins
 
 With this cloud-native toolchain, you can build a simple Node.js weather application. The toolchain builds from a GitHub repository, runs unit tests by using Mocha, checks code coverage by using Istanbul, performs Functional Verification Tests using Mocha, requests decisions from DevOps Insights, and then deploys to IBM Bluemix.
 
