@@ -3,3 +3,4 @@ parameters:
   name: ""
   description: ""
   dashboard_url: ""
+  webhook_url:""
