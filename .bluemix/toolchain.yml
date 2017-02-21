@@ -27,7 +27,6 @@ demo-dra-repo:
 #Slack
 messaging:
   service_id: slack
-  include: slack.yml
 
 #Jenkins
 jenkins:
