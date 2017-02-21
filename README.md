@@ -4,7 +4,7 @@ With this cloud-native toolchain, you can build a simple Node.js weather applica
 
 To get started, click **Create toolchain**.
 
-[![Deploy To Bluemix](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://dev-console.stage1.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/patrickjoy/jenkins-insights-toolchain-demo.git&refreshServices)
+[![Deploy To Bluemix](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://dev-console.stage1.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/patrickjoy/jenkins-insights-toolchain-demo&refreshServices)
 
 ---
 ###Learn more
