@@ -1,12 +1,12 @@
 [
   {
     "name":"Jenkins Insights Toolchain Demo Policy",
-    "description": "Composite Policy to check both Unit Tests and Code Coverage.",
+    "description": "Composite Policy to check Unit Tests, Functional Tests, and Code Coverage.",
     "rules":[
       {
         "name": "Unit Test Rule",
         "description": "Unit Test Rule",
-        "format":"mocha",
+        "format":"xunit",
         "stage":"unittest",
         "percentPass":80,
         "regressionCheck":true,
@@ -23,7 +23,7 @@
       {
         "name": "FVT Rule",
         "description": "FVT Rule",
-        "format":"mocha",
+        "format":"xunit",
         "stage":"fvt",
         "percentPass":80,
         "regressionCheck":true,
